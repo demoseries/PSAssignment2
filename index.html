@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sales Performance Analysis</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <style>
+      .top-performer {
+        color: var(--pico-color-green-500);
+        font-weight: bold;
+      }
+      .medium-performer {
+        color: var(--pico-color-blue-500);
+        font-weight: bold;
+      }
+      .low-performer {
+        color: var(--pico-color-orange-500);
+        font-weight: bold;
+      }
+      .currency {
+        color: var(--pico-color-green-600);
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="container">
+      <nav>
+        <ul>
+          <li><a href="sales-analysis.html">Sales Analysis</a></li>
+          <li><a href="all-sales-data.html">All Sales Data</a></li>
+        </ul>
+      </nav>
+      <hgroup>
+        <h1>Sales Performance Analysis</h1>
+        <p>Quarterly sales analysis using for loops with business analytics</p>
+      </hgroup>
+    </header>
+
+    <main class="container">
+      <section>
+        <h2>Best Performer</h2>
+        <p id="best-performer"></p>
+      </section>
+      <section>
+        <h2>Top Performer</h2>
+        <p id="top-performers-count"></p>
+
+        <p id="top-performer"></p>
+      </section>
+      <section>
+        <h2>Sales Average</h2>
+        <p id="sales-average"></p>
+      </section>
+    </main>
+
+    <footer class="container">
+      <small>Learning JavaScript for loops with sales data analysis</small>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
